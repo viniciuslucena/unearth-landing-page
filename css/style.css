@@ -1,4 +1,4 @@
-header {
+.superinfo, header {
     font-family: 'Rubik', sans-serif;
 }
 
@@ -77,16 +77,18 @@ body {
 }
 
 .header {
+    background-color: white;
     padding: 40px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    width: 100%;
 }
 
 .logo {
     color: #FF8B00;
-    font-weight: bolder;
+    font-weight: 700;
     font-size: 18px;
 }
 
@@ -167,6 +169,7 @@ nav ul li a {
 .service {
     display: flex;
     justify-content: space-between;
+    font-weight: bold;
 }
 
 .land_property {
@@ -182,21 +185,34 @@ nav ul li a {
 .check_services {
     display: flex;
     flex-direction: column;
+    margin-top: 40px;
 }
 
 .check_services i {
     display: flex;
 }
 
+.check_services p {
+    margin-left: 15px;
+    font-family: 'Oswald', sans-serif;
+}
+
 .services h2 {
     font-size: 35px;
     margin-bottom: 15px;
+    font-weight: 400;
+    margin-top: 30px;
 }
 
 .services p {
     font-size: 18px;
     margin-bottom: 15px;
     font-weight: 300;
+    color: #939393;
+}
+
+.services i {
+    color: #FF8B00;
 }
 
 .fa-check {
@@ -206,4 +222,67 @@ nav ul li a {
 .services img {
     width: 580px;
     margin-bottom: 10px;
+}
+
+/* SERVICES 2 */
+
+.services2_bg {
+    background-color: #F8F9FA;
+}
+
+.services2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 100px 0;
+}
+
+.about_service {
+    max-width: 300px;
+}
+
+.about_service img {
+    width: 60px;
+    margin-bottom: 25px;
+}
+
+.about_service h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.about_service p {
+    color: #939393;
+    margin-bottom: 40px;
+    font-weight: 300;
+    letter-spacing: unset;
+}
+
+/* VIDEO */
+
+.aboutus_bg {
+    background-color: #343A40;
+    font-family: 'Rubik', sans-serif;
+    padding: 60px;
+}
+
+.video {
+    margin-bottom: 30px;
+}
+
+.dados {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    text-align: center;
+}
+
+.dados h2 {
+    font-size: 70px;
+    border-bottom: 3px solid #939393;   
+}
+
+.dados p {
+    margin-top: 16px;
+    font-size: 14px;
 }
