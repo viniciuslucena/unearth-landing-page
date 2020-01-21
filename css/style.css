@@ -1,0 +1,209 @@
+header {
+    font-family: 'Rubik', sans-serif;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+    line-height: 1.7;
+}
+
+.container {
+    max-width: 1150px;
+    margin: 0 auto;
+}
+
+/* SUPERINFO */
+
+.superinfo_bg {
+    background-image: linear-gradient(to right, #7A5E85 , #F67B2F);
+    color: white;
+}
+
+.superinfo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 43px;
+}
+
+.superinfo i {
+    margin-right: 10px;
+}
+
+.superinfo p {
+    margin-right: 25px;
+}
+
+.superinfo a {
+    color: white;
+    text-decoration: none;
+}
+
+.superinfo_left {
+    display: flex;
+    justify-content: space-between;
+}
+
+.superinfo_right {
+    display: flex;
+    justify-content: space-between;
+}
+
+.email_superinfo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tel_superinfo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.twitter_superinfo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.instagram_superinfo {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* HEADER */
+
+.header_bg {
+    background-color: white;
+}
+
+.header {
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo {
+    color: #FF8B00;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.logo a {
+    text-decoration: none;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li {
+    display: block;
+    padding: 0 21px;
+}
+
+nav ul li a {
+    color: #272727;
+    text-decoration: none;
+}
+
+/* MAIN */
+
+.main_bg {
+    background: url(../img/bg-01.jpg), linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    background-blend-mode: overlay;
+    background-size: cover;
+    color: white;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    max-width: 690px;
+    line-height: 1.7em;
+    height: 550px;
+    margin: 0 auto;
+}
+
+.main h1 {
+    font-size: 75px;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+
+.main p {
+    margin-bottom: 40px;
+    font-size: 18px;
+}
+
+.main button {
+    padding: 10px 20px;
+    background: transparent;
+    color: white;
+    border: 3px solid white;
+    border-radius: 3px;
+}
+
+.main button:hover {
+    padding: 10px 20px;
+    background: white;
+    color: black;
+    border: 3px solid white;
+    border-radius: 3px;
+    transition: 0.3s;
+}
+
+/* SERVICES */
+
+.services {
+    display: flex;
+    flex-direction: column;
+    padding: 100px 0;
+}
+
+.service {
+    display: flex;
+    justify-content: space-between;
+}
+
+.land_property {
+    max-width: 400px;
+    margin-right: 80px;
+}
+
+.surface_mining {
+    max-width: 400px;
+    margin-left: 80px;
+}
+
+.check_services {
+    display: flex;
+    flex-direction: column;
+}
+
+.check_services i {
+    display: flex;
+}
+
+.services h2 {
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.services p {
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-weight: 300;
+}
+
+.fa-check {
+    margin-right: 10px;
+}
+
+.services img {
+    width: 580px;
+    margin-bottom: 10px;
+}
