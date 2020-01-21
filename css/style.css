@@ -163,7 +163,7 @@ nav ul li a {
 .services {
     display: flex;
     flex-direction: column;
-    padding: 100px 0;
+    padding: 80px 0 60px 0;
 }
 
 .service {
@@ -234,7 +234,7 @@ nav ul li a {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 100px 0;
+    padding: 80px 0 60px 0;
 }
 
 .about_service {
@@ -263,7 +263,7 @@ nav ul li a {
 .aboutus_bg {
     background-color: #343A40;
     font-family: 'Rubik', sans-serif;
-    padding: 60px;
+    padding: 60px 0;
 }
 
 .video {
@@ -285,4 +285,94 @@ nav ul li a {
 .dados p {
     margin-top: 16px;
     font-size: 14px;
+}
+
+/* OUR TEAM */
+
+.ourteam_bg {
+    padding: 80px 0;
+    text-align: center;
+}
+
+.text_ourteam h2 {
+    text-transform: uppercase;
+    font-size: 50px;
+    color: #FF8B00;
+}
+
+.text_ourteam p {
+    font-size: 18px;
+    color: #939393;
+    margin-bottom: 70px;
+}
+
+.ourteam {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.team_member {
+    width: 31%;
+    text-align: center;
+    border: 1px solid #e7e7e7;
+    margin-bottom: 25px;
+    border-radius: 3px;
+    padding: 25px 0;
+}
+
+.team_member:hover {
+    width: 31%;
+    text-align: center;
+    border: 1px solid #e7e7e7;
+    margin-bottom: 31px;
+    border-radius: 3px;
+    padding: 25px 0;
+    margin-top: -6px;
+    transition: 0.2s;
+    box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+.team_member ul {
+    display: flex;
+    justify-content: center;
+}
+
+.team_member img {
+    max-width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+.team_member i {
+    background-color: #FF8B00;
+    padding: 7px;
+    color: white;
+    margin: 15px 2px;
+    width: 15px;
+    border-radius: 4px;
+}
+
+.team_member i:hover {
+    background-color: #fff;
+    padding: 5px;
+    color: #000;
+    margin: 15px 2px;
+    width: 15px;
+    border-radius: 4px;
+    border: 2px solid #FF8B00;
+    transition: 0.2s;
+}
+
+.team_member h3 {
+    text-transform: uppercase;
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+.team_member p {
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #acacac;
+    letter-spacing: 2px;
 }
