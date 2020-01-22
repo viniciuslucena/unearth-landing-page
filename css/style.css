@@ -805,7 +805,7 @@ textarea {
     transition-timing-function: linear;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 767px) {
 
     .service {
         padding: 15px;
@@ -909,7 +909,13 @@ textarea {
     }
 
     .post {
-        max-width: 100%;
+        max-width: 90%;
+        margin-bottom: 40px;
+        margin: 0 auto;
+    }
+
+    .post p {
+        max-width: 90%;
     }
 
     .form {
@@ -953,7 +959,7 @@ textarea {
         padding: 15px;
     }
 
-    .display {
+    .superinfo p {
         display: none;
     }
 
