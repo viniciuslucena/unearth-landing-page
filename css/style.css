@@ -48,12 +48,14 @@ h1 {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    max-width: 500px;
 }
 
 .superinfo_right {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    max-width: 50%;
 }
 
 .superinfo_icon {
@@ -805,7 +807,7 @@ textarea {
     transition-timing-function: linear;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 600px){
 
     .service {
         padding: 15px;
@@ -918,6 +920,10 @@ textarea {
         max-width: 90%;
     }
 
+    .post h1 {
+        max-width: 90%;
+    }
+
     .form {
         margin-bottom: 20px;
         padding: 15px;
@@ -961,13 +967,5 @@ textarea {
 
     .superinfo p {
         display: none;
-    }
-
-    .superinfo_right a i {
-        margin-left: 50px;
-    }
-
-    .superinfo_left a i {
-        margin-right: 50px;
     }
 }
