@@ -47,31 +47,37 @@ h1 {
 .superinfo_left {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .superinfo_right {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .email_superinfo {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .tel_superinfo {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .twitter_superinfo {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .instagram_superinfo {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 /* HEADER */
@@ -177,6 +183,7 @@ nav ul li a {
 .service {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     font-weight: bold;
 }
 
@@ -199,6 +206,7 @@ nav ul li a {
 
 .check_services i {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .check_services p {
@@ -304,6 +312,12 @@ nav ul li a {
     text-align: center;
 }
 
+.text_ourteam {
+    max-width: 600px;
+    text-align: center;
+    margin: 0 auto;
+}
+
 .text_ourteam h2 {
     text-transform: uppercase;
     font-size: 50px;
@@ -399,6 +413,7 @@ nav ul li a {
 .pricing_text {
     text-align: center;
     margin: 0 auto;
+    max-width: 700px;
 }
 
 .pricing_text h2 {
@@ -451,6 +466,7 @@ nav ul li a {
 .plan i {
     display: flex;
     color: #7ABC42;
+    flex-wrap: wrap;
 }
 
 .btn {
@@ -497,7 +513,7 @@ nav ul li a {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding: 80px;
+    padding: 80px 0;
 }
 
 .question {
@@ -636,6 +652,7 @@ nav ul li a {
     max-width: 40%;
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .form {
@@ -767,7 +784,7 @@ textarea {
     transition: 0.2s
 }
 
-.features ul li a:hover  {
+.features ul li a:hover {
     text-decoration: none;
     color: #fff;
     transition-timing-function: linear;
@@ -800,4 +817,139 @@ textarea {
     color: #fff;
     margin-right: 30px;
     transition-timing-function: linear;
+}
+
+@media screen and (max-width: 600px) {
+
+    .service img {
+        width: 450px;
+        height: 450px;
+        margin: 0 auto;
+    }
+
+    .service h2,
+    .service p {
+        text-align: left;
+        padding: 25px;
+    }
+
+    .check_services {
+        padding: 25px;
+    }
+
+    .services2 {
+        padding: 25px;
+    }
+
+    .aboutus iframe {
+        max-width: 450px;
+        margin-top: -250px;
+        padding: 15px;
+        margin-left: -20px;
+    }
+
+    .dados {
+        display: flex;
+        justify-content: space-between;
+        margin-top: -250px;
+        padding: 15px;
+    }
+
+    .dados_inf {
+        width: 40%;
+        padding: 15px;
+    }
+
+    .dados_inf h2 {
+        font-size: 30px;
+        padding: 15px;
+    }
+
+    .aboutus {
+        height: 700px;
+        padding: 25px;
+    }
+
+    .team_member {
+        width: 100%;
+        padding: 25px;
+    }
+
+    .team_member:hover {
+        width: 100%;
+        margin-top: -6px;
+        transition-timing-function: linear;
+        box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.1);
+        padding: 25px;
+    }
+
+    .plan {
+        margin: 0 auto;
+        margin-bottom: 25px;
+    }
+
+    .question {
+        max-width: 100%; 
+        padding: 15px;
+    }
+
+    .press {
+        padding: 15px;
+    }
+
+    .ourblog {
+        display: flex;
+        flex-direction: column;
+        padding: 25px;
+    }
+
+    .ourblog img {
+        width: 430px;
+    }
+
+    .ourblog h1,
+    .ourblog p {
+        width: 430px;
+    }
+
+    .post {
+        padding: 20px 0;
+    }
+
+    .form {
+        margin-bottom: 20px;
+        padding: 15px;
+    }
+
+    .pricing_text {
+        padding: 15px;
+    }
+
+    .field {
+        width: 87vw;
+    }
+
+    .field:hover {
+        width: 87vw;
+    }
+
+    .text_ourteam {
+        padding: 15px;
+    }
+
+    .details {
+        max-width: 100%;
+        padding: 15px;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        padding: 15px;
+    }
+
+    .about_footer {
+        max-width: 100%;
+        margin-bottom: 15px;
+    }
 }
