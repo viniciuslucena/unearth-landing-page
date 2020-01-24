@@ -68,6 +68,8 @@ h1 {
 
 .header_bg {
     background-color: white;
+    position: sticky;
+    top: 0;
 }
 
 .header {
@@ -80,14 +82,11 @@ h1 {
     width: 100%;
 }
 
-.logo {
+.logo a {
+    text-decoration: none;
     color: #FF8B00;
     font-weight: 700;
     font-size: 18px;
-}
-
-.logo a {
-    text-decoration: none;
 }
 
 nav ul {
@@ -281,7 +280,15 @@ nav ul li a {
 
 .dados h2 {
     font-size: 70px;
-    border-bottom: 3px solid #939393;
+}
+
+.dados h2:after {
+    content: '';
+    display: block;
+    width: 70px;
+    height: 2px;
+    background: #939393;
+    margin: 0 auto;
 }
 
 .dados p {
